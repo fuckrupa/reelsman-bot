@@ -92,7 +92,7 @@ async def handle_video_message(message: Message):
         )
         logging.info("[RESPONSE] Direct link sent successfully.")
     else:
-        await message.reply("❌ Couldn't extract the video link. It may be private, age-restricted, or unsupported.")
+        await message.reply("Chud Gaye Ghuru 😢")
         logging.warning("[RESPONSE] Failed to extract video link.")
 
 async def set_commands():
